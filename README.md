@@ -3,12 +3,6 @@ Object detection with Faster R-CNN and PyTorch
 
 Apply Object detection with Faster R-CNN to classify predetermined objects
 
-! pip3 install torch==1.13.0 torchvision==0.14.0 torchaudio
-! wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CV0101EN-Coursera/images%20/images_part_5/DLguys.jpeg
-! wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CV0101EN-Coursera/images%20/images_part_5/watts_photos2758112663727581126637_b5d4d192d4_b.jpeg
-! wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CV0101EN-Coursera/images%20/images_part_5/istockphoto-187786732-612x612.jpeg
-! wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CV0101EN-Coursera/images%20/images_part_5/jeff_hinton.png
-
 Step 1: Install necessary libraries
 Step 2: Import necessary libraries
     -> Getting Images from Web
@@ -24,6 +18,7 @@ Step 7: Pass the Image to model, obtain outputs
                                 'scores': Tensor([s1,s2,s3,s4,..])}
 Step 8: Extract the Class Name, Bounding Box details and Confidence
 Step 9: Convert image tensor to openCV array and draw bounding boxes
+Step 10: Save the opencv images
 
 
 
