@@ -1,6 +1,9 @@
+**Project Title**
+
 Object detection with Faster R-CNN and PyTorch
 
 **Project Description**
+
 This project classifies entities in an image using Faster R-CNN model from torchvision.
 
 **Steps**
@@ -17,6 +20,7 @@ Step 3: Define Util Functions
 * Drawing bounding boxes
 
 Step 4: Load Pretrained Faster-RCNN Model from torchvision
+
     `model_ = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)`
 
 Step 5: Inference Method
