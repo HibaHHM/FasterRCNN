@@ -1,0 +1,2 @@
+# GITHUB SETUp
+git clone https://github.com/HibaHHM/FasterRCNN.git
